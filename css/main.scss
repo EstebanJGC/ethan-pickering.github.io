@@ -19,24 +19,6 @@ h1, h2, h3, h4, h5, h6, p {
   color: #ffffff !important; /* Ensure menu bar text is white */
 }
 
-/* Top navigation bar */
-.navs {
-  /* background-color: #ffffff !important; Set menu bar background to white */
-  color: #ffffff !important; /* Ensure menu bar text is white */
-}
-
-/*  */
-.media {
-  background-color: #ffffff !important; /*Set menu bar background to white */
-  color: #ffffff !important; /* Ensure menu bar text is white */
-}
-
-/*  */
-.badges {
-  background-color: #ffffff !important; /*Set menu bar background to white */
-  color: #ffffff !important; /* Ensure menu bar text is white */
-}
-
 /* Fluxbox: Added for publication page columns. */
 .flex-container {
   display: flex;
@@ -45,16 +27,19 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
   margin: 0;
   list-style: none;
+  background-color: #ffffff; /* Set background color to white */
 }
 
 .flex-item1 {
   padding: 5px;
   width: 10%;
+  background-color: #ffffff; /* Set background color to white */
 }
 
 .flex-item2 {
   padding: 5px;
   width: 90%;
+  background-color: #ffffff; /* Set background color to white */
 }
 
 img { margin-bottom: 24px;
@@ -102,6 +87,7 @@ firstp {
 /* Home, News */
 #newsid p {
 	text-align: left;
+	background-color: #ffffff; /* Set background color to white */
 }
 
 #homeidtmp h1 {
