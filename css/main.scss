@@ -113,10 +113,19 @@ firstp {
 	padding-right: 16px;
 }
 
-/* Grid overrides (bottom bar) */
+/* Grid overrides ("about" in home) */
 .col-sm-4 {
 	padding-left: 26px;
 	padding-right: 26px;
+	color: #ffffff; /* Set background color to white */
+}
+
+/* Grid overrides (??) */
+.col-sm-1 {
+	color: #ffffff; /* Set background color to white */
+}
+/* Grid overrides (??) */
+.col-sm-2 {
 	color: #ffffff; /* Set background color to white */
 }
 
