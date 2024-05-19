@@ -7,12 +7,12 @@
   padding-top:    $jumbotron-padding;
   padding-bottom: $jumbotron-padding;
   margin-bottom: $jumbotron-padding;
-  color: $jumbotron-color;
+  color: #ff0000; // $jumbotron-color;
   background-color: #ffffff; //$jumbotron-bg;
 
   h1,
   .h1 {
-    color: $jumbotron-heading-color;
+    color: #ff000; //$jumbotron-heading-color;
   }
 
   p {
