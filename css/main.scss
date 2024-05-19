@@ -14,10 +14,26 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Top navigation bar */
+
+/* Assuming .navbar is your navigation bar class */
 .navbar {
-  background-color: #ffffff !important; /*Set menu bar background to white */
-  color: #ffffff !important; /* Ensure menu bar text is white */
+    background-color: #ffffff; /* Example background color */
+    color: #ffffff !important; /* Example text color */
 }
+
+.navbar a {
+    color: #ffffff !important; /* Ensures links within the navbar inherit the text color */
+}
+
+/* If using Bootstrap or similar frameworks, ensure you override their styles */
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff !important; /* Ensures text color for nav links */
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff !important; /* Ensures text color for the brand/logo */
+}
+
 
 /* Fluxbox: Added for publication page columns. */
 .flex-container {
