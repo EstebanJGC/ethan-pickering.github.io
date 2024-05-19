@@ -503,9 +503,9 @@ $pager-disabled-color:                 $pagination-disabled-color !default;
 //## For the pannels in the home and publications
 
 $jumbotron-padding:              30px !default;
-//$jumbotron-color:                inherit !default;
-$jumbotron-color:                #ffffff !default; // Body of the pannels
-$jumbotron-bg:                   #ffffff !default; //;#302f2f !default;
+$jumbotron-color:                inherit !default;
+//$jumbotron-color:                #ffffff !default; // Body of the pannels
+$jumbotron-bg:                   #302f2f !default;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
@@ -539,9 +539,9 @@ $state-danger-border:            darken($state-danger-bg, 10%) !default;
 //** Tooltip max width
 $tooltip-max-width:           200px !default;
 //** Tooltip text color
-$tooltip-color:               #ffffff; //EG #302f2f !default;
+$tooltip-color:               #302f2f !default;
 //** Tooltip background color
-$tooltip-bg:                  #ffffff; //EG #000 !default;
+$tooltip-bg:                  #000 !default;
 $tooltip-opacity:             .9 !default;
 
 //** Tooltip arrow width
