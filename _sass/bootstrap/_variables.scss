@@ -249,8 +249,7 @@ $cursor-disabled:                not-allowed !default;
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-//$dropdown-bg:                    #302f2f !default;
-$dropdown-bg:                    $gray !default; //EJGC
+$dropdown-bg:                    #302f2f !default;
 //** Dropdown menu `border-color`.
 $dropdown-border:                $input-border !default;
 //** Dropdown menu `border-color` **for IE8**.
@@ -720,7 +719,6 @@ $list-group-link-heading-color: #333 !default;
 //
 //##
 $panel-bg:                    #302f2f !default;
-//$panel-bg:                    $gray !default; // EJGC
 $panel-body-padding:          15px !default;
 $panel-heading-padding:       10px 15px !default;
 $panel-footer-padding:        $panel-heading-padding !default;
@@ -778,8 +776,7 @@ $thumbnail-caption-padding:   9px !default;
 //
 //##
 
-//$well-bg:                     $jumbotron-bg !default;
-$well-bg:                     $gray !default; // EJGC
+$well-bg:                     $jumbotron-bg !default;
 $well-border:                 darken($well-bg, 7%) !default;
 
 
