@@ -7,17 +7,18 @@
   padding-top:    $jumbotron-padding;
   padding-bottom: $jumbotron-padding;
   margin-bottom: $jumbotron-padding;
-  color: #ff0000; // $jumbotron-color;
+  color: #ffffff; // $jumbotron-color;
   background-color: #ffffff; //$jumbotron-bg;
 
   h1,
   .h1 {
-    color: #ff000; //$jumbotron-heading-color;
+    color: #ffffff; //$jumbotron-heading-color;
   }
 
   p {
     margin-bottom: ($jumbotron-padding / 2);
     font-size: $jumbotron-font-size;
+		color: #ffffff;
     font-weight: 200;
   }
 
@@ -49,6 +50,7 @@
     h1,
     .h1 {
       font-size: $jumbotron-heading-font-size;
+			color: #ffffff;
     }
   }
 }
