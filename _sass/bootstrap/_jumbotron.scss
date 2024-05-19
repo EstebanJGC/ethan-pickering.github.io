@@ -1,5 +1,5 @@
 //
-// Jumbotron
+// Jumbotron (the blocks in welcome page)
 // --------------------------------------------------
 
 
@@ -8,7 +8,7 @@
   padding-bottom: $jumbotron-padding;
   margin-bottom: $jumbotron-padding;
   color: #ffffff; // $jumbotron-color;
-  background-color: #ffffff; //$jumbotron-bg;
+  background-color: $jumbotron-bg;
 
   h1,
   .h1 {
