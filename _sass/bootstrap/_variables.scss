@@ -199,14 +199,14 @@ $btn-border-radius-small:        $border-radius-small !default;
 //##
 
 //** `<input>` background color
-$input-bg:                       #ffffff; //EG #302f2f !default;
+$input-bg:                       #302f2f !default;
 //** `<input disabled>` background color
 $input-bg-disabled:              $gray-lighter !default;
 
 //** Text color for `<input>`s
 $input-color:                    $gray !default;
 //** `<input>` border color
-$input-border:                   #ffffff; //EG lighten(#302f2f, 6.5%) !default;
+$input-border:                   lighten(#302f2f, 6.5%) !default;
 
 // TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
 //** Default `.form-control` border radius
@@ -218,7 +218,7 @@ $input-border-radius-large:      $border-radius-large !default;
 $input-border-radius-small:      $border-radius-small !default;
 
 //** Border color for inputs on focus
-$input-border-focus:             #ffffff; //EG #66afe9 !default;
+$input-border-focus:             #66afe9 !default;
 
 //** Placeholder text color
 $input-color-placeholder:        $gray-light !default;
@@ -233,13 +233,13 @@ $input-height-small:             (floor($font-size-small * $line-height-small) +
 //** `.form-group` margin
 $form-group-margin-bottom:       15px !default;
 
-$legend-color:                   #ffffff; //EG $gray-dark !default;
-$legend-border-color:            #ffffff; //EG #e5e5e5 !default;
+$legend-color:                   $gray-dark !default;
+$legend-border-color:            #e5e5e5 !default;
 
 //** Background color for textual input addons
-$input-group-addon-bg:           #ffffff; //EG $gray-lighter !default;
+$input-group-addon-bg:           $gray-lighter !default;
 //** Border color for textual input addons
-$input-group-addon-border-color: #ffffff; //EG $input-border !default;
+$input-group-addon-border-color: $input-border !default;
 
 //** Disabled cursor for form controls and buttons.
 $cursor-disabled:                not-allowed !default;
@@ -250,13 +250,13 @@ $cursor-disabled:                not-allowed !default;
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-$dropdown-bg:                    #ffffff; //EG #302f2f !default;
+$dropdown-bg:                    #302f2f !default;
 //** Dropdown menu `border-color`.
-$dropdown-border:                #ffffff; //EG $input-border !default;
+$dropdown-border:                $input-border !default;
 //** Dropdown menu `border-color` **for IE8**.
-$dropdown-fallback-border:       #ffffff; //EG #ccc !default;
+$dropdown-fallback-border:       #ccc !default;
 //** Divider color for between dropdown items.
-$dropdown-divider-bg:            #ffffff; //EG $gray-lighter !default;
+$dropdown-divider-bg:            $gray-lighter !default;
 
 //** Dropdown link text color.
 $dropdown-link-color:            $gray-light !default;
@@ -266,9 +266,9 @@ $dropdown-link-hover-color:      $gray !default;
 $dropdown-link-hover-bg:         transparent !default;
 
 //** Active dropdown menu item text color.
-$dropdown-link-active-color:     #ffffff; //EG $component-active-color !default;
+$dropdown-link-active-color:     $component-active-color !default;
 //** Active dropdown menu item background color.
-$dropdown-link-active-bg:        #ffffff; //EG $component-active-bg !default;
+$dropdown-link-active-bg:        $component-active-bg !default;
 
 //** Disabled dropdown menu item background color.
 $dropdown-link-disabled-color:   $gray-lighter !default;
@@ -277,7 +277,7 @@ $dropdown-link-disabled-color:   $gray-lighter !default;
 $dropdown-header-color:          $gray-light !default;
 
 //** Deprecated `$dropdown-caret-color` as of v3.1.0
-$dropdown-caret-color:           #ffffff; //EG #000 !default;
+$dropdown-caret-color:           #000 !default;
 
 
 //-- Z-index master list
@@ -438,64 +438,64 @@ $navbar-inverse-toggle-border-color:        $gray-lighter !default;
 
 //=== Shared nav styles
 $nav-link-padding:                          10px 15px !default;
-$nav-link-hover-bg:                         #ffffff; //EG #302f2f !default;
+$nav-link-hover-bg:                         #302f2f !default;
 
 $nav-disabled-link-color:                   $gray-light !default;
 $nav-disabled-link-hover-color:             $gray !default;
 
 //== Tabs
-$nav-tabs-border-color:                     #ffffff; //EG $navbar-default-border !default;
+$nav-tabs-border-color:                     $navbar-default-border !default;
 
-$nav-tabs-link-hover-border-color:          #ffffff; //EG $gray-lighter !default;
+$nav-tabs-link-hover-border-color:          $gray-lighter !default;
 
-$nav-tabs-active-link-hover-bg:             #ffffff; //EG #302f2f !default;
+$nav-tabs-active-link-hover-bg:             #302f2f !default;
 $nav-tabs-active-link-hover-color:          $gray !default;
-$nav-tabs-active-link-hover-border-color:   #ffffff; //EG $nav-tabs-border-color !default;
+$nav-tabs-active-link-hover-border-color:   $nav-tabs-border-color !default;
 
-$nav-tabs-justified-link-border-color:            #ffffff; //EG $nav-tabs-border-color !default;
-$nav-tabs-justified-active-link-border-color:     #ffffff; //EG $body-bg !default;
+$nav-tabs-justified-link-border-color:            $nav-tabs-border-color !default;
+$nav-tabs-justified-active-link-border-color:     $body-bg !default;
 
 //== Pills
 $nav-pills-border-radius:                   $border-radius-base !default;
-$nav-pills-active-link-hover-bg:            #ffffff; //EG $component-active-bg !default;
-$nav-pills-active-link-hover-color:         #ffffff; //EG $component-active-color !default;
+$nav-pills-active-link-hover-bg:            $component-active-bg !default;
+$nav-pills-active-link-hover-color:         $component-active-color !default;
 
 
 //== Pagination
 //
 //##
 
-$pagination-color:                     #ffffff; //EG $btn-default-color !default;
-$pagination-bg:                        #ffffff; //EG $btn-default-bg !default;
-$pagination-border:                    #ffffff; //EG $btn-default-border !default;
+$pagination-color:                     $btn-default-color !default;
+$pagination-bg:                        $btn-default-bg !default;
+$pagination-border:                    $btn-default-border !default;
 
-$pagination-hover-color:               #ffffff; //EG $pagination-color !default;
-$pagination-hover-bg:                  #ffffff; //EG $pagination-bg !default;
-$pagination-hover-border:              #ffffff; //EG $pagination-border !default;
+$pagination-hover-color:               $pagination-color !default;
+$pagination-hover-bg:                  $pagination-bg !default;
+$pagination-hover-border:              $pagination-border !default;
 
-$pagination-active-color:              #ffffff; //EG #302f2f !default;
-$pagination-active-bg:                 #ffffff; //EG $brand-primary !default;
-$pagination-active-border:             #ffffff; //EG $btn-primary-border !default;
+$pagination-active-color:              #302f2f !default;
+$pagination-active-bg:                 $brand-primary !default;
+$pagination-active-border:             $btn-primary-border !default;
 
-$pagination-disabled-color:            #ffffff; //EG $gray-light !default;
-$pagination-disabled-bg:               #ffffff; //EG $pagination-bg !default;
-$pagination-disabled-border:           #ffffff; //EG $pagination-border !default;
+$pagination-disabled-color:            $gray-light !default;
+$pagination-disabled-bg:               $pagination-bg !default;
+$pagination-disabled-border:           $pagination-border !default;
 
 
 //== Pager
 //
 //##
 
-$pager-bg:                             $pagination-bg !default;
-$pager-border:                         $pagination-border !default;
+$pager-bg:                             #ffffff; //EG $pagination-bg !default;
+$pager-border:                         #ffffff; //EG $pagination-border !default;
 $pager-border-radius:                  15px !default;
 
-$pager-hover-bg:                       $pagination-hover-bg !default;
+$pager-hover-bg:                       #ffffff; //EG $pagination-hover-bg !default;
 
-$pager-active-bg:                      $pagination-active-bg !default;
-$pager-active-color:                   $pagination-active-color !default;
+$pager-active-bg:                      #ffffff; //EG $pagination-active-bg !default;
+$pager-active-color:                   #ffffff; //EG $pagination-active-color !default;
 
-$pager-disabled-color:                 $pagination-disabled-color !default;
+$pager-disabled-color:                 #ffffff; //EG $pagination-disabled-color !default;
 
 
 //== Jumbotron
@@ -503,9 +503,9 @@ $pager-disabled-color:                 $pagination-disabled-color !default;
 //##
 
 $jumbotron-padding:              30px !default;
-$jumbotron-color:                inherit !default;
-$jumbotron-bg:                   #302f2f !default;
-$jumbotron-heading-color:        inherit !default;
+$jumbotron-color:                #ffffff; //EG inherit !default;
+$jumbotron-bg:                   #ffffff; //EG #302f2f !default;
+$jumbotron-heading-color:        #ffffff; //EG inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 
@@ -514,21 +514,21 @@ $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-$state-success-text:             #302f2f !default;
-$state-success-bg:               $brand-success !default;
-$state-success-border:           darken($state-success-bg, 4%) !default;
+$state-success-text:             #ffffff; //EG #302f2f !default;
+$state-success-bg:               #ffffff; //EG $brand-success !default;
+$state-success-border:           #ffffff; //EG darken($state-success-bg, 4%) !default;
 
-$state-info-text:                #302f2f !default;
-$state-info-bg:                  $brand-info !default;
-$state-info-border:              darken($state-info-bg, 12%) !default;
+$state-info-text:                #ffffff; //EG #302f2f !default;
+$state-info-bg:                  #ffffff; //EG $brand-info !default;
+$state-info-border:              #ffffff; //EG darken($state-info-bg, 12%) !default;
 
-$state-warning-text:             #302f2f !default;
-$state-warning-bg:               $brand-warning !default;
-$state-warning-border:           darken($state-warning-bg, 5%) !default;
+$state-warning-text:             #ffffff; //EG #302f2f !default;
+$state-warning-bg:               #ffffff; //EG $brand-warning !default;
+$state-warning-border:           #ffffff; //EG darken($state-warning-bg, 5%) !default;
 
 $state-danger-text:              #302f2f !default;
-$state-danger-bg:                $brand-danger !default;
-$state-danger-border:            darken($state-danger-bg, 10%) !default;
+$state-danger-bg:                #ffffff; //EG $brand-danger !default;
+$state-danger-border:            #ffffff; //EG darken($state-danger-bg, 10%) !default;
 
 
 //== Tooltips
@@ -538,9 +538,9 @@ $state-danger-border:            darken($state-danger-bg, 10%) !default;
 //** Tooltip max width
 $tooltip-max-width:           200px !default;
 //** Tooltip text color
-$tooltip-color:               #302f2f !default;
+$tooltip-color:               #ffffff; //EG #302f2f !default;
 //** Tooltip background color
-$tooltip-bg:                  #000 !default;
+$tooltip-bg:                  #ffffff; //EG #000 !default;
 $tooltip-opacity:             .9 !default;
 
 //** Tooltip arrow width
