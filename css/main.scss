@@ -3,6 +3,7 @@
     
 @import "bootstrap";
 
+/* Main Body of the static site */
 body {
   padding-top: 70px;
   background-color: #ffffff; /* Set background color to white */
@@ -14,8 +15,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Top navigation bar */
-
-/* Assuming .navbar is your navigation bar class */
 .navbar {
     /* background-color: #ffffff; /* Example background color */
     color: #ffffff !important; /* Example text color */
@@ -25,7 +24,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: #ffffff !important; /* Ensures links within the navbar inherit the text color */
 }
 
-/* If using Bootstrap or similar frameworks, ensure you override their styles */
 .navbar-default .navbar-nav > li > a {
     color: #ffffff !important; /* Ensures text color for nav links */
 }
