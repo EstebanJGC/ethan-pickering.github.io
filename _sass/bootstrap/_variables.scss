@@ -500,10 +500,11 @@ $pager-disabled-color:                 $pagination-disabled-color !default;
 
 //== Jumbotron
 //
-//##
+//## For the pannels in the home and publications
 
 $jumbotron-padding:              30px !default;
-$jumbotron-color:                inherit !default;
+//$jumbotron-color:                inherit !default;
+$jumbotron-color:                #ffffff !default; // Body of the pannels
 $jumbotron-bg:                   #302f2f !default;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
@@ -514,21 +515,21 @@ $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-$state-success-text:             #ffffff; //EG #302f2f !default;
-$state-success-bg:               #ffffff; //EG $brand-success !default;
-$state-success-border:           #ffffff; //EG darken($state-success-bg, 4%) !default;
+$state-success-text:             #302f2f !default;
+$state-success-bg:               $brand-success !default;
+$state-success-border:           darken($state-success-bg, 4%) !default;
 
-$state-info-text:                #ffffff; //EG #302f2f !default;
-$state-info-bg:                  #ffffff; //EG $brand-info !default;
-$state-info-border:              #ffffff; //EG darken($state-info-bg, 12%) !default;
+$state-info-text:                #302f2f !default;
+$state-info-bg:                  $brand-info !default;
+$state-info-border:              darken($state-info-bg, 12%) !default;
 
-$state-warning-text:             #ffffff; //EG #302f2f !default;
-$state-warning-bg:               #ffffff; //EG $brand-warning !default;
-$state-warning-border:           #ffffff; //EG darken($state-warning-bg, 5%) !default;
+$state-warning-text:             #302f2f !default;
+$state-warning-bg:               $brand-warning !default;
+$state-warning-border:           darken($state-warning-bg, 5%) !default;
 
 $state-danger-text:              #302f2f !default;
-$state-danger-bg:                #ffffff; //EG $brand-danger !default;
-$state-danger-border:            #ffffff; //EG darken($state-danger-bg, 10%) !default;
+$state-danger-bg:                $brand-danger !default;
+$state-danger-border:            darken($state-danger-bg, 10%) !default;
 
 
 //== Tooltips
