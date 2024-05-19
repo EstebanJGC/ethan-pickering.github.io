@@ -250,13 +250,13 @@ $cursor-disabled:                not-allowed !default;
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-$dropdown-bg:                    #302f2f !default;
+$dropdown-bg:                    #ffffff; //EG #302f2f !default;
 //** Dropdown menu `border-color`.
-$dropdown-border:                $input-border !default;
+$dropdown-border:                #ffffff; //EG $input-border !default;
 //** Dropdown menu `border-color` **for IE8**.
-$dropdown-fallback-border:       #ccc !default;
+$dropdown-fallback-border:       #ffffff; //EG #ccc !default;
 //** Divider color for between dropdown items.
-$dropdown-divider-bg:            $gray-lighter !default;
+$dropdown-divider-bg:            #ffffff; //EG $gray-lighter !default;
 
 //** Dropdown link text color.
 $dropdown-link-color:            $gray-light !default;
@@ -266,9 +266,9 @@ $dropdown-link-hover-color:      $gray !default;
 $dropdown-link-hover-bg:         transparent !default;
 
 //** Active dropdown menu item text color.
-$dropdown-link-active-color:     $component-active-color !default;
+$dropdown-link-active-color:     #ffffff; //EG $component-active-color !default;
 //** Active dropdown menu item background color.
-$dropdown-link-active-bg:        $component-active-bg !default;
+$dropdown-link-active-bg:        #ffffff; //EG $component-active-bg !default;
 
 //** Disabled dropdown menu item background color.
 $dropdown-link-disabled-color:   $gray-lighter !default;
@@ -277,7 +277,7 @@ $dropdown-link-disabled-color:   $gray-lighter !default;
 $dropdown-header-color:          $gray-light !default;
 
 //** Deprecated `$dropdown-caret-color` as of v3.1.0
-$dropdown-caret-color:           #000 !default;
+$dropdown-caret-color:           #ffffff; //EG #000 !default;
 
 
 //-- Z-index master list
