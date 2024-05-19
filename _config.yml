@@ -1,26 +1,27 @@
 # Site settings
-title: Ethan Pickering
-email: pickering@mit.edu
-description: Academic webpage of Ethan Pickering
+title: Esteban Garzón
+email: esteban.garzon@unical.it
+description: SOME DESCRIPTION
 baseurl: ""
 url: ""
-affiliation: I am part of the <a href="http://meche.mit.edu/" target="_blank">Mechanical Engineering Department</a> at the Massachusetts Institute of Technology
+affiliation: I'm with the <a href="https://dimes.unical.it" target="_blank">Department of Computer Engineering, Modeling, Electronics and Systems</a> at the University of Calabria
 
 # Google analytics ID
-google_analytics: UA-176412042-1
+#google_analytics: UA-176412042-1
 
 # Location info. (shown in footer)
 location: >
   Coordinates: <br/>
-  Building 5 <br/>
-  Massachusetts Institute of Technology <br/>
-  77 Massachusetts Ave<br/>
-  Cambridge, MA 02139<br/>
+  Building 42C <br/>
+  University of Calabria <br/>
+  Via P. Bucci <br/>
+  Rende, CS 87036<br/>
 
 # Contact info. (shown in footer)
 contact: >
-    Contact Ethan via email: <a href="mailto:pickering@mit.edu" target="_blank">pickering@mit.edu</a> <br/>
-    <br/><a href="/aboutwebsite.html">Use this webpage as a template for your own!</a>
+    Contact Esteban via email: <a href="mailto:esteban.garzon@unical.it" target="_blank">esteban.garzon@unical.it</a> <br/>    
+
+#<br/><a href="/aboutwebsite.html">Use this webpage as a template for your own!</a>
 
 # Pages shown in navbar
 nav_pages:
