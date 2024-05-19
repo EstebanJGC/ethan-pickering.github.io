@@ -40,7 +40,7 @@ $brand-danger:          #870b02 !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #ffffff; //EG #0f0f0f !default;
+$body-bg:               #0f0f0f !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-light !default;
 
@@ -126,7 +126,7 @@ $border-radius-small:       2px !default;
 $component-active-color:    $gray !default;
 // $component-active-color:    #302f2f !default;
 //** Global background color for active items (e.g., navs or dropdowns).
-$component-active-bg:       #ffffff; //EG $brand-primary !default;
+$component-active-bg:       $brand-primary !default;
 
 
 //** Width of the `border` for generating carets that indicate dropdowns.
@@ -145,12 +145,12 @@ $table-cell-padding:            8px !default;
 $table-condensed-cell-padding:  5px !default;
 
 //** Default background color used for all tables.
-$table-bg:                      #ffffff; //EG transparent !default;
+$table-bg:                      transparent !default;
 //** Background color used for `.table-striped`.
-$table-bg-accent:               #ffffff; //EG #f9f9f9 !default;
+$table-bg-accent:               #f9f9f9 !default;
 //** Background color used for `.table-hover`.
-$table-bg-hover:                #ffffff; //EG #302f2f !default;
-$table-bg-active:               #ffffff; //EG $table-bg-hover !default;
+$table-bg-hover:                #302f2f !default;
+$table-bg-active:               $table-bg-hover !default;
 
 //** Border color for table and cell borders.
 $table-border-color:            $gray-lighter !default;
@@ -199,14 +199,14 @@ $btn-border-radius-small:        $border-radius-small !default;
 //##
 
 //** `<input>` background color
-$input-bg:                       #302f2f !default;
+$input-bg:                       #ffffff; //EG #302f2f !default;
 //** `<input disabled>` background color
 $input-bg-disabled:              $gray-lighter !default;
 
 //** Text color for `<input>`s
 $input-color:                    $gray !default;
 //** `<input>` border color
-$input-border:                   lighten(#302f2f, 6.5%) !default;
+$input-border:                   #ffffff; //EG lighten(#302f2f, 6.5%) !default;
 
 // TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
 //** Default `.form-control` border radius
@@ -218,7 +218,7 @@ $input-border-radius-large:      $border-radius-large !default;
 $input-border-radius-small:      $border-radius-small !default;
 
 //** Border color for inputs on focus
-$input-border-focus:             #66afe9 !default;
+$input-border-focus:             #ffffff; //EG #66afe9 !default;
 
 //** Placeholder text color
 $input-color-placeholder:        $gray-light !default;
@@ -233,13 +233,13 @@ $input-height-small:             (floor($font-size-small * $line-height-small) +
 //** `.form-group` margin
 $form-group-margin-bottom:       15px !default;
 
-$legend-color:                   $gray-dark !default;
-$legend-border-color:            #e5e5e5 !default;
+$legend-color:                   #ffffff; //EG $gray-dark !default;
+$legend-border-color:            #ffffff; //EG #e5e5e5 !default;
 
 //** Background color for textual input addons
-$input-group-addon-bg:           $gray-lighter !default;
+$input-group-addon-bg:           #ffffff; //EG $gray-lighter !default;
 //** Border color for textual input addons
-$input-group-addon-border-color: $input-border !default;
+$input-group-addon-border-color: #ffffff; //EG $input-border !default;
 
 //** Disabled cursor for form controls and buttons.
 $cursor-disabled:                not-allowed !default;
