@@ -125,8 +125,8 @@ $border-radius-small:       2px !default;
 $component-active-color:    $gray !default;
 // $component-active-color:    #302f2f !default;
 //** Global background color for active items (e.g., navs or dropdowns).
-//$component-active-bg:       $brand-primary !default;
-$component-active-bg:       $gray !default;
+$component-active-bg:       $brand-primary !default;
+
 
 //** Width of the `border` for generating carets that indicate dropdowns.
 $caret-width-base:          4px !default;
@@ -249,7 +249,8 @@ $cursor-disabled:                not-allowed !default;
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-$dropdown-bg:                    #302f2f !default;
+//$dropdown-bg:                    #302f2f !default;
+$dropdown-bg:                    #gray !default; //EJGC
 //** Dropdown menu `border-color`.
 $dropdown-border:                $input-border !default;
 //** Dropdown menu `border-color` **for IE8**.
