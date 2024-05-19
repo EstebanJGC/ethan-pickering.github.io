@@ -15,8 +15,16 @@ body {
 //(}
 
 .jumbotron {
-    //background-color: #000000; /* Example background color */
-    color: #000000 !important; 
+  color: #ff0000 !important; /* Main text color for jumbotron */
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #ff0000 !important; /* Set header color to red inside jumbotron */
+  }
+
+  p {
+    color: #00ff00 !important; /* Set paragraph color to green inside jumbotron */
+    font-weight: 200;
+  }
 }
 
 
