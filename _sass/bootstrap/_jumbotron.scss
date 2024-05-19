@@ -12,13 +12,13 @@
 
   h1,
   .h1 {
-    color: #ff0000; //$jumbotron-heading-color;
+    color: #ff0000 !important; //$jumbotron-heading-color;
   }
 
   p {
     margin-bottom: ($jumbotron-padding / 2);
     font-size: $jumbotron-font-size;
-//		color: #ffffff;
+		color: #ff0000 !important;
     font-weight: 200;
   }
 
@@ -50,7 +50,6 @@
     h1,
     .h1 {
       font-size: $jumbotron-heading-font-size;
-		  color: #ff0000;
     }
   }
 }
