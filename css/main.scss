@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Top navigation bar */
 .navbar {
-  /* background-color: #ffffff !important; Set menu bar background to white */
+  background-color: #ffffff !important; /*Set menu bar background to white */
   color: #ffffff !important; /* Ensure menu bar text is white */
 }
 
@@ -112,12 +112,13 @@ firstp {
 	padding-left: 16px;
 	padding-right: 16px;
 	/*color: #ffffff;  Set font color to white */
+	background-color: #ffffff !important; /*Set menu bar background to white */
 }
 
 /* Grid publications ("about" in "home" page) */
 .col-sm-12 {
 	color: #000000; /* Set font color to white */
-	background-color: #ffffff; /* Set background color to white */
+	/*background-color: #ffffff; /* Set background color to white */
 }
 
 /* Grid overrides ("about" in "home" page) */
