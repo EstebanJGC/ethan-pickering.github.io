@@ -111,18 +111,20 @@ firstp {
 .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 	padding-left: 16px;
 	padding-right: 16px;
-	/*color: #ffffff;  Set background color to white */
+	/*color: #ffffff;  Set font color to white */
 }
 
+/* Grid publications ("about" in "home" page) */
 .col-sm-12 {
-	color: #000000; /* Set background color to white */
+	color: #000000; /* Set font color to white */
+	background-color: #ffffff; /* Set background color to white */
 }
 
 /* Grid overrides ("about" in "home" page) */
 .col-sm-4 {
 	padding-left: 26px;
 	padding-right: 26px;
-	color: #ffffff; /* Set background color to white */
+	color: #ffffff; /* Set font color to white */
 }
 
 /* Carousel */
