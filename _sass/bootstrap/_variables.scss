@@ -382,26 +382,26 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             #ffffff; //EG $text-color !default;
-$navbar-default-bg:                #ffffff; //EG #302f2f !default;
-$navbar-default-border:            #ffffff; //EG $input-border !default;
+$navbar-default-color:             $text-color !default;
+$navbar-default-bg:                #302f2f !default;
+$navbar-default-border:            $input-border !default;
 
 // Navbar links
 $navbar-default-link-color:                $gray-light !default;
 $navbar-default-link-hover-color:          $gray !default;
 $navbar-default-link-hover-bg:             transparent !default;
-$navbar-default-link-active-color:         #ffffff; //EG $navbar-default-link-hover-color !default;
+$navbar-default-link-active-color:         $navbar-default-link-hover-color !default;
 $navbar-default-link-active-bg:            transparent !default;
 $navbar-default-link-disabled-color:       $gray-lighter !default;
 $navbar-default-link-disabled-bg:          transparent !default;
 
 // Navbar brand label
-$navbar-default-brand-color:               #ffffff; //EG $navbar-default-link-color !default;
-$navbar-default-brand-hover-color:         #ffffff; //EG $navbar-default-link-hover-color !default;
-$navbar-default-brand-hover-bg:            #ffffff; //EG transparent !default;
+$navbar-default-brand-color:               $navbar-default-link-color !default;
+$navbar-default-brand-hover-color:         $navbar-default-link-hover-color !default;
+$navbar-default-brand-hover-bg:            transparent !default;
 
 // Navbar toggle
-$navbar-default-toggle-hover-bg:           #ffffff; //EG #302f2f !default;
+$navbar-default-toggle-hover-bg:           #302f2f !default;
 $navbar-default-toggle-icon-bar-bg:        $gray-light !default;
 $navbar-default-toggle-border-color:       $gray-lighter !default;
 
@@ -409,27 +409,27 @@ $navbar-default-toggle-border-color:       $gray-lighter !default;
 //=== Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      $gray-light !default;
-$navbar-inverse-bg:                         #ffffff; //EG #302f2f !default;
-$navbar-inverse-border:                     #ffffff; //EG lighten($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-bg:                         #302f2f !default;
+$navbar-inverse-border:                     lighten($navbar-inverse-bg, 10%) !default;
 
 // Inverted navbar links
 $navbar-inverse-link-color:                 $gray-light !default;
 $navbar-inverse-link-hover-color:           $gray-dark !default;
 $navbar-inverse-link-hover-bg:              transparent !default;
-$navbar-inverse-link-active-color:          #ffffff; //EG $navbar-inverse-link-hover-color !default;
+$navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
 $navbar-inverse-link-active-bg:             transparent !default;
 $navbar-inverse-link-disabled-color:        $gray-lighter !default;
 $navbar-inverse-link-disabled-bg:           transparent !default;
 
 // Inverted navbar brand label
-$navbar-inverse-brand-color:                #ffffff; //EG $navbar-inverse-link-color !default;
-$navbar-inverse-brand-hover-color:          #ffffff; //EG $navbar-inverse-link-hover-color !default;
+$navbar-inverse-brand-color:                $navbar-inverse-link-color !default;
+$navbar-inverse-brand-hover-color:          $navbar-inverse-link-hover-color !default;
 $navbar-inverse-brand-hover-bg:             transparent !default;
 
 // Inverted navbar toggle
-$navbar-inverse-toggle-hover-bg:            #ffffff; //EG $gray-lighter !default;
-$navbar-inverse-toggle-icon-bar-bg:         #ffffff; //EG $gray-light !default;
-$navbar-inverse-toggle-border-color:        #ffffff; //EG $gray-lighter !default;
+$navbar-inverse-toggle-hover-bg:            $gray-lighter !default;
+$navbar-inverse-toggle-icon-bar-bg:         $gray-light !default;
+$navbar-inverse-toggle-border-color:        $gray-lighter !default;
 
 
 //== Navs
@@ -438,48 +438,48 @@ $navbar-inverse-toggle-border-color:        #ffffff; //EG $gray-lighter !default
 
 //=== Shared nav styles
 $nav-link-padding:                          10px 15px !default;
-$nav-link-hover-bg:                         #302f2f !default;
+$nav-link-hover-bg:                         #ffffff; //EG #302f2f !default;
 
 $nav-disabled-link-color:                   $gray-light !default;
 $nav-disabled-link-hover-color:             $gray !default;
 
 //== Tabs
-$nav-tabs-border-color:                     $navbar-default-border !default;
+$nav-tabs-border-color:                     #ffffff; //EG $navbar-default-border !default;
 
-$nav-tabs-link-hover-border-color:          $gray-lighter !default;
+$nav-tabs-link-hover-border-color:          #ffffff; //EG $gray-lighter !default;
 
-$nav-tabs-active-link-hover-bg:             #302f2f !default;
+$nav-tabs-active-link-hover-bg:             #ffffff; //EG #302f2f !default;
 $nav-tabs-active-link-hover-color:          $gray !default;
-$nav-tabs-active-link-hover-border-color:   $nav-tabs-border-color !default;
+$nav-tabs-active-link-hover-border-color:   #ffffff; //EG $nav-tabs-border-color !default;
 
-$nav-tabs-justified-link-border-color:            $nav-tabs-border-color !default;
-$nav-tabs-justified-active-link-border-color:     $body-bg !default;
+$nav-tabs-justified-link-border-color:            #ffffff; //EG $nav-tabs-border-color !default;
+$nav-tabs-justified-active-link-border-color:     #ffffff; //EG $body-bg !default;
 
 //== Pills
 $nav-pills-border-radius:                   $border-radius-base !default;
-$nav-pills-active-link-hover-bg:            $component-active-bg !default;
-$nav-pills-active-link-hover-color:         $component-active-color !default;
+$nav-pills-active-link-hover-bg:            #ffffff; //EG $component-active-bg !default;
+$nav-pills-active-link-hover-color:         #ffffff; //EG $component-active-color !default;
 
 
 //== Pagination
 //
 //##
 
-$pagination-color:                     $btn-default-color !default;
-$pagination-bg:                        $btn-default-bg !default;
-$pagination-border:                    $btn-default-border !default;
+$pagination-color:                     #ffffff; //EG $btn-default-color !default;
+$pagination-bg:                        #ffffff; //EG $btn-default-bg !default;
+$pagination-border:                    #ffffff; //EG $btn-default-border !default;
 
-$pagination-hover-color:               $pagination-color !default;
-$pagination-hover-bg:                  $pagination-bg !default;
-$pagination-hover-border:              $pagination-border !default;
+$pagination-hover-color:               #ffffff; //EG $pagination-color !default;
+$pagination-hover-bg:                  #ffffff; //EG $pagination-bg !default;
+$pagination-hover-border:              #ffffff; //EG $pagination-border !default;
 
-$pagination-active-color:              #302f2f !default;
-$pagination-active-bg:                 $brand-primary !default;
-$pagination-active-border:             $btn-primary-border !default;
+$pagination-active-color:              #ffffff; //EG #302f2f !default;
+$pagination-active-bg:                 #ffffff; //EG $brand-primary !default;
+$pagination-active-border:             #ffffff; //EG $btn-primary-border !default;
 
-$pagination-disabled-color:            $gray-light !default;
-$pagination-disabled-bg:               $pagination-bg !default;
-$pagination-disabled-border:           $pagination-border !default;
+$pagination-disabled-color:            #ffffff; //EG $gray-light !default;
+$pagination-disabled-bg:               #ffffff; //EG $pagination-bg !default;
+$pagination-disabled-border:           #ffffff; //EG $pagination-border !default;
 
 
 //== Pager
